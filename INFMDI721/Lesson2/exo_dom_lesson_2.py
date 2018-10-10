@@ -2,9 +2,9 @@ import requests
 from bs4 import BeautifulSoup
 import json
 website_search = "https://www.reuters.com/finance/stocks/lookup?searchType=any&comSortBy=marketcap&sortBy=&dateRange=&search="
-#pages = requests.get(website_search+queries)
 web_prefix = "https://www.reuters.com/finance/stocks/financial-highlights/"
 queries = ["DANO.PA","AIR.PA","LVMH.PA"]
+#pages = requests.get(website_search+queries)
 
 
 def _handle_request_result_and_build_soup(request_result):
