@@ -5,7 +5,8 @@ Comme demandé, vous trouverez dans ce dossier tout ce qui est nécéssaire pour
    - Dossier project/plugins.sbt
    - Fichier build_and_submit.sh
    
-Tout ce que j'ai codé se trouve dans l'objet Trainer (se trouvant dans: src/main/scala/com/sparkProject/). Comme vous avez déjà les données nécessaires à l'exécution du code, je n'ai pas jugé utile de les inclure dans ce répertoire. Afin que le code puisse tourner, veuillez prendre en compte qu'il faudra changer le path des données à traiter dans la partie du code: ** 1. Charger le dataframe: prepared_trainingset (parquet) **/. 
+Tout ce que j'ai codé se trouve dans l'objet Trainer (se trouvant dans: src/main/scala/com/sparkProject/). 
+Comme vous avez déjà les données nécessaires à l'exécution du code, je n'ai pas jugé utile de les inclure dans ce répertoire. Afin que le code puisse tourner, veuillez prendre en compte qu'il faudra changer le path des données à traiter dans la partie du code: ** 1. Charger le dataframe: prepared_trainingset (parquet) **/. 
 
 Je n'ai testé que la régression logistique sur les données de départ.
 La précision du modèle a été mesurée avec le F1-score dont la valeur dépend du seed inital utilisé pour séparer les données 
