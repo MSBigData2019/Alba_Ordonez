@@ -1,9 +1,9 @@
 
 Comme demandé, vous trouverez dans ce dossier tout ce qui est nécéssaire pour que vous puissiez compiler le code, à savoir:
-   - build.sbt
+   - Fichier build.sbt
    - Dossier src
-   - project/plugins.sbt
-   - build_and_submit.sh
+   - Dossier project/plugins.sbt
+   - Fichier build_and_submit.sh
    
 Tout ce que j'ai codé se trouve dans l'objet Trainer. Comme vous avez déjà les données nécessaires à l'exécution du code, je n'ai pas jugé utile de les inclure dans ce répertoire. Afin que le code puisse tourner, veuillez prendre en compte qu'il faudra changer le path des données à traiter dans la partie du code: ** 1. Charger le dataframe: prepared_trainingset (parquet) **/. 
 
