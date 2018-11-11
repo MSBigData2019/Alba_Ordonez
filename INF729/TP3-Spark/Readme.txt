@@ -11,7 +11,7 @@ Afin que le code puisse tourner, veuillez prendre en compte qu'il faudra changer
 
 Je n'ai testé que la régression logistique sur les données de départ.
 La précision du modèle a été mesurée avec le F1-score dont la valeur dépend du seed inital utilisé pour séparer les données 
-d'entraînement (train) et de test.
+d'entraînement (train) et de test. En changeant les valeurs du seed, j'ai constaté que la précision du modèle pouvait varier de plus ou moins 0.05.
 
 Voici ci-dessous, une vue d'ensemble des vrais/faux positifs et des vrais/faux négatifs finalement obtenus avec un seed égal à 1:
 ------------+-----------+-----+                                                
